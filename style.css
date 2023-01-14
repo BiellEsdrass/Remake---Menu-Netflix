@@ -1,0 +1,190 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+:root{
+    --color-red: #d31018;
+    --color-gray: #33333389;
+}
+
+
+body{
+    background-image: url(imgs/fundo.jpg);
+    
+}
+
+/*Logo*/
+.logo img{
+    height: 30px;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+/*Caixa de Menu*/
+.menu{
+    height: 660px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.634);
+    padding: 50px;
+    margin: 3em;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px rgba(255, 0, 0, 0.178);
+}
+.menu h1{
+    color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.menu form{
+    margin-top: 2.4em;
+}
+
+.box{
+    width: 100%;
+    height: 4em;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 9px;
+    background-color: #333333c4;
+    color: white;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    padding: 2em;
+}
+.box:hover{
+    border-radius: 7px;
+    transition: all .5s;
+}
+.box::placeholder{
+    color: rgb(235, 235, 235);
+    outline: none;
+    font-size: 14px;
+}
+
+
+.box1{
+    width: 100%;
+    height: 4em;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 9px;
+    background-color: #333333c4;
+    color: white;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    padding: 2em;
+}
+.box1:hover{
+    border-radius: 7px;
+    transition: all .5s;
+}
+.box1::placeholder{
+    color: rgb(235, 235, 235);
+    outline: none;
+    font-size: 14px;
+}
+.showpassword{
+    height: 1.6em;
+    position: relative;
+    z-index: 2;
+    bottom: 3em;
+    left: 90%;
+}
+
+
+
+.box-entrar{
+    font-size: 20px;
+    width: 100%;
+    height: 2.3em;
+    margin-top: 30px;
+    margin-left: 10px ;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    outline:none;
+    background-color: var(--color-red);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+.box-entrar:hover{
+    background-color: #b5171c;
+}
+
+.help{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 10px;
+}
+.help a{
+    text-decoration: none;
+    color: rgb(215, 215, 215);
+}
+.help a:hover{
+    text-decoration: underline;
+    color: var(--color-red);
+    transition: all .5s;
+}
+.lembre{
+    display: flex;
+    color: rgba(255, 255, 255, 0.804);
+    gap: 10px;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.part-button img{
+    height: 20px;
+}
+
+.final{
+    margin-left: 10px;
+    margin-top: 5.6em;
+}
+
+.novo{
+    color: rgba(255, 255, 255, 0.689);
+}
+.novo a{
+    text-decoration: none;
+    color: white;
+}
+.novo a:hover{
+    text-decoration:underline;
+    text-decoration-color: #d31018;
+    transition: all .5s;
+    color: #d31018;
+}
+.paragrafo{
+    margin-top: 10px;
+    font-size: 13px;
+    color:  rgba(255, 255, 255, 0.689);
+}
+.paragrafo a{
+    color: #0071eb;
+    text-decoration: none;
+}
+.paragrafo a:hover{
+    color: var(--color-red);
+    text-decoration: underline;
+    transition: all .5s;
+}
